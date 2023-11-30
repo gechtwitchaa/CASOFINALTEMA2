@@ -32,3 +32,6 @@ void load_script() {
     load_script(filename);
 }
 
+int main() {
+    load_script("nombre_del_archivo.txt", true); // Ejemplo de carga y muestra del archivo "nombre_del_archivo.txt"
+
