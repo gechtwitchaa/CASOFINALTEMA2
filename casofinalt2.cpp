@@ -24,3 +24,11 @@ void load_script(const std::string& filename, bool show_script = false) {
     file.close();
 }
 
+void load_script() {
+    std::string filename;
+    std::cout << "Ingrese el nombre del archivo: ";
+    std::getline(std::cin, filename);
+
+    load_script(filename);
+}
+
