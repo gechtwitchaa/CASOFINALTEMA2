@@ -17,4 +17,10 @@ void load_script(const std::string& filename, bool show_script = false) {
         }
     }
 
+    if (file.bad()) {
+        std::cerr << "Error de lectura al leer el archivo '" << filename << "'" << std::endl;
+    }
+
+    file.close();
+}
 
