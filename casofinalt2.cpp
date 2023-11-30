@@ -33,9 +33,9 @@ void load_script() {
 }
 
 int main() {
-    load_script("nombre_del_archivo.txt", true); // Ejemplo de carga y muestra del archivo "nombre_del_archivo.txt"
+    load_script("programacion.txt", true);
 
-    load_script(); // Solicitar al usuario el nombre del archivo y cargar su contenido
+    load_script();
 
     return 0;
 }
